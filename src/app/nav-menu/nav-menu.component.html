@@ -1,0 +1,25 @@
+<nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse">
+    <a class="navbar-brand" [routerLink]="['/']">NG Vision</a>
+
+    <div class="collapse navbar-collapse xnavbar-nav xnav">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-item nav-link" [routerLink]="['/']" [routerLinkActive]="['active']">
+                    <span class='fa fa-home'></span> Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" [routerLink]="['/known-individuals']" [routerLinkActive]="['link-active']">
+                    <span class='fa fa-users'></span> Known Individuals
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" [routerLink]="['/test-faces']" [routerLinkActive]="['link-active']">
+                    <span class='fa fa-eye'></span> Test Faces
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
